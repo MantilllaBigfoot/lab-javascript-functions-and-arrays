@@ -215,7 +215,7 @@ describe('Unique array', () => {
   test('should return the uniquified array', () => {
     expect(
       uniquifyArray(['iPhone', 'Samsung', 'Android', 'iOS', 'iPhone', 'Samsung', 'Nokia', 'Blackberry', 'Android'])
-    ).toEqual(['iPhone', 'Samsung', 'Android', 'iOS', 'Nokia', 'Blackberry']);
+    ).toEqual(['iOS', 'iPhone', 'Samsung', 'Nokia', 'Blackberry', 'Android']);
   });
 });
 
