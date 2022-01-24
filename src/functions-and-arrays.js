@@ -245,7 +245,7 @@ function greatestProduct(matrix) {
       }
       if (matrix[i + 3] !== undefined) {
       //console.log(matrix[i][j], matrix[i + 1][j], matrix[i + 2][j], matrix[i + 3][j]);
-        tmpVertical = matrix[i][j], matrix[i + 1][j], matrix[i + 2][j], matrix[i + 3][j];
+        tmpVertical = matrix[i][j] * matrix[i + 1][j] * matrix[i + 2][j] * matrix[i + 3][j];
         if (tmpVertical > highestNumberVertical){
           highestNumberVertical = tmpVertical;
         }
